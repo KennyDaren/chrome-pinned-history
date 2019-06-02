@@ -1,0 +1,44 @@
+<!--
+ Copyright (c) KennyDaren.me and contributors.
+ Licensed under the MIT license. See LICENSE file in the project root for details.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+
+<header>
+    <h1><img src="assets/icon.svg" alt="Pinned History"/> Pinned History</h1>
+    <a href="#" id="show-add">+</a>
+    <div style="clear: both"></div>
+</header>
+
+<aside id="add-container" style="display: none">
+    <div class="centered">
+        <input id="phrase" type="text" placeholder="Phrase" tabindex="1">
+        <input id="limit" type="number" step="1" min="1" max="25" value="3">
+        <input id="add" type="submit" value="OK">
+    </div>
+    <ul id="list"></ul>
+</aside>
+
+
+<main id="main">
+
+</main>
+
+<footer>
+    <a target="_newtab" href="https://github.com/KennyDaren/chrome-pinned-history">Pinned History</a> |
+    Made with <strong><3</strong> for
+    <a target="_newtab" href="https://opensource.org/">Open Source</a>
+    by
+    <a target="_newtab" href="https://kennydaren.me/">KennyDaren.me</a>
+</footer>
+
+<script src="popup.js"></script>
+
+</body>
+</html>

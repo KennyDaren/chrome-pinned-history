@@ -1,0 +1,108 @@
+/*
+ * Copyright (c) KennyDaren.me and contributors.
+ * Licensed under the MIT license. See LICENSE file in the project root for details.
+ */
+
+body {
+    width: 600px;
+    background: #f5f5f5;
+    margin: 0 !important;
+    color: #333;
+}
+
+header {
+    margin: 0;
+    border-bottom: #c9c9c9 1px solid;
+}
+
+header h1 {
+    float: left;
+}
+
+header img {
+    width: 24px;
+    height: 24px;
+}
+
+header a {
+    float: right;
+    margin: 0 0.5em 0 0;
+    font-size: xx-large;
+}
+
+header a:hover {
+    opacity: 0.6;
+}
+
+h1, h2 {
+    margin: .3em .5em .3em .5em;
+}
+
+main {
+    margin: .3em .5em .3em .5em;
+}
+
+aside {
+    margin: .3em .5em .3em .5em;
+    width: 100%;
+    border-bottom: #333333 1px solid;
+}
+
+.centered {
+    margin: 0 auto;
+    width: 80%;
+}
+
+footer {
+    background: #c9c9c9;
+    height: 1.5em;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: underline;
+}
+
+footer img{
+    width: 12px;
+    height: 12px;
+}
+
+a, a:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: .7em 0 .7em 0;
+    padding: 0 0 0 1.2em;
+}
+
+li {
+    border-bottom: #eee 1px solid;
+    margin: 0.2em 0 0.2em 0;
+}
+
+input[type="text"] {
+    width: 70%;
+}
+
+.title a {
+    float: right;
+    padding: 0.5em;
+    opacity: 0.1;
+}
+
+.title a:hover {
+    opacity: 0.7;
+}
+
+.title h2 {
+    float: left;
+}
+
+.title img {
+    width: 16px;
+    height: 16px;
+}
